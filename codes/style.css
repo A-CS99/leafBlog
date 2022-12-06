@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ol, ul{
+    list-style-type: none;
+}
+a{
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+}
+#top, #nav, #photo, #info, #footer{
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.container{
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+#top{
+    height: 30px;
+    background-color: rgb(55, 55, 55);
+    z-index: -1;
+}
+.topLeft{
+    margin: 5px 0;
+    height: 20px;
+    width: fit-content;
+    /* border: 1px solid green; */
+    float: left;
+}
+.topLeft div{
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+#qq{
+    height: 20px;
+    width: 18px;
+    background: url(../imgs/QQ1.png) no-repeat;
+}
+#wx{
+    height: 20px;
+    width: 24px;
+    background: url(../imgs/微信1.png) no-repeat;
+}
+#tel{
+    height: 20px;
+    width: 24px;
+    background: url(../imgs/电话1.png) no-repeat;
+}
+#txt{
+    margin-top: 4px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: rgb(210, 210, 210);
+}
+.topRight{
+    margin: 9px 0;
+    height: 12px;
+    width: fit-content;
+    /* border: 1px solid green; */
+    font-size: 0;
+    float: right;
+}
+.topRight li{
+    height: 12px;
+    width: fit-content;
+    padding: 0 10px;
+    line-height: 12px;
+    font-size: 12px;
+    border-left: 1px solid rgb(210, 210, 210);
+    float: left;
+}
+#work{
+    border: 0;
+}
+#nav{
+    height: 80px;
+    background-color: rgb(210, 210, 210);
+    z-index: -2;
+}
+#photo{
+    height: 600px;
+    background-color: white;
+    box-shadow: 0 5px 2px white;
+    z-index: -3;
+}
+#info{
+    height: 800px;
+    background-color: white;
+    box-shadow: 0 5px 2px white;
+    z-index: -4;
+}
+#footer{
+    height: 200px;
+    background-color: gray;
+    z-index: -5;
+}
